@@ -70,7 +70,7 @@ app.get('/:ox?/:oy?/:zoom?', function(request, response) {
         result += '<br />';
     }
 
-    result += '</body></html>';
+    result += '<br /><br /><font color="#ffffff" size="-2">Code available at <a href="https://github.com/lafiosca/mandelbrot">Github</a></body></html>';
 
     response.send(result);
 

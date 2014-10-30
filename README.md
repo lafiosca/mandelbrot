@@ -17,3 +17,23 @@ I originally wrote this application in C and compiled it into my cgi-bin directo
 
 I had also hoped to upgrade it to support arbitrary precision zooming. The original app had the problem that after zooming in about 6-8 times, everything just turned blobby. At first I attempted to write this new version using [bignumber.js](http://mikemcl.github.io/bignumber.js/), but my initial effort was rendering way too slowly. I decided to just get the original functionality reimplemented and worry about the precision experiments later.
 
+As of version 0.1.1, this application produces HTML version 3 output, i.e. font tags with color attributes. This method is actually no longer supported by HTML5, and as such the code should probably be revised to use CSS. Then again, part of the charm is how rough-hewn it is.
+
+License
+-------
+
+Mandelbrot HTML Generator
+Copyright (C) 2014  Joe Lafiosca <joe@lafiosca.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
