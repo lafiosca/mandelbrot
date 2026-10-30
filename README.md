@@ -25,7 +25,7 @@ License
 -------
 
 Mandelbrot HTML Generator
-Copyright (C) 2014  Joe Lafiosca <joe@lafiosca.com>
+Copyright (C) 2014, 2026  Joe Lafiosca <joe@lafiosca.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
