@@ -27,4 +27,3 @@ Complex.prototype.magnitude = function() {
     return Math.sqrt(this.r * this.r + this.i * this.i);
 }
 
-module.exports = Complex;

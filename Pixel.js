@@ -1,5 +1,3 @@
-Complex = require('./Complex.js');
-
 function Pixel(r, i) {
     this.c = new Complex(r, i);
     this.value = this.c;
@@ -50,4 +48,3 @@ Pixel.prototype.getColor = function(min, max) {
     return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
 }
 
-module.exports = Pixel;
