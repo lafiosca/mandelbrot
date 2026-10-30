@@ -17,7 +17,7 @@ I originally wrote this application in C and compiled it into my cgi-bin directo
 
 I had also hoped to upgrade it to support arbitrary precision zooming. The original app had the problem that after zooming in about 6-8 times, everything just turned blobby. At first I attempted to write this new version using [bignumber.js](http://mikemcl.github.io/bignumber.js/), but my initial effort was rendering way too slowly. I decided to just get the original functionality reimplemented and worry about the precision experiments later.
 
-In 2026 the Express server was dropped in favor of rendering the same output in the browser, so it can be hosted on GitHub Pages.
+In 2026 the Express server was dropped in favor of rendering the same output in the browser, so it can be hosted on GitHub Pages, with a little assist from [@claude](https://github.com/claude).
 
 As of version 0.1.1, this application produces HTML version 3 output, i.e. font tags with color attributes. This method is actually no longer supported by HTML5, and as such the code should probably be revised to use CSS. Then again, part of the charm is how rough-hewn it is.
 
